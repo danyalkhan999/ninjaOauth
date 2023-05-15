@@ -1,0 +1,97 @@
+
+# Ninja Authentication Project
+
+A Node.js Express application that provides authentication functionality using JSON Web Tokens (JWT) and Google OAuth 2.0.
+
+
+## Features
+
+- User registration with email and password
+- User login and session management using JWT
+- Password hashing and salting for security
+- Protected routes with JWT authentication middleware
+- Integration with Google OAuth 2.0 for authentication
+- Seamless user experience with social login via Google
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/danyalkhan999/ninjaOauth.git
+```
+
+Go to the project directory
+
+```bash
+  cd auth-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+## Appendix
+
+Session and token both used for Google-Oauth2.0 and JWT respectively.
+
+
+## Tech Stack
+
+**Client:** JWT, Passport, Express-session
+
+**Server:** Node, Express
+
+
+## Screenshots
+
+- Home Page
+![Home Page](https://lh3.googleusercontent.com/pw/AJFCJaUqftLm7ybjASF9gEfkyhczzC3tI3q9gguv7E7MMwryNj_pq0Ba41ZTXAwKvDrc_-7Seq1VXUhMwst-OjR3X5ObAt2qgWT9W85qx8RPrCUdgzGLBHGWv8RMnXFtvwBmuCbrvAhtyprC0fm-eUkBYlnZfTafJ_0oYJxXYHc1_FgKRxTDH-i4aaWEYChg7oMykdu8A024m8Mm--JM5vYA4_SHdEONreELq4hdiy7spRv1o-Qn-MJtcXyVW1VRtJknU4wqfb71fXhqPWoWKJzebyX_cDsIFPb8SE4eiY9a0x6BarwMUT3jwiKsEsHHGC-BvLTT1k1JL3_VCITQlMgdOKTgl3iXLTeGFUJmD7I14b0oxDCYNbEXB7yVGwjxX401UvawuJ7wtgaSvoB4uy0Vcsz3wSCcLh4OvePixGpH86kDc-8mghLjtj75KYrotrc3AYOjf_FUNArl1Rha5dwdpQfC16gM57rv5XdwI9tJj0e6ERyhjmM_jyOUI9_dxJ6NvwKJfaji2g63BrIE_lInY0TN4hjRduCWjJztxQjO2xgpkSCvkfl8LwhPvCqulxb-Cv2_HvT67AzbdAnUwgZYpWy9ug1NQHpBPBEToP6-3paj-2aXhS_8Fn4ffmj2UXsT6eJ0P9OXbCRmJVwKGyqDi__dSFeEk2g2drY9bWSFkfqYIZs0D51EW9AZn-ZQ4fw3p_LSQAGJrclwAaGDuk9bW9rekHx4GcdbH8NvAPF0wyS_NNgBkKBdTMmahnaiTGKxqYdZex8HqLyRB9CYaOMMMWESNQ1UpIR8Wuu4UMtrB3ljpSsq4CYrJVmwwgmASoW3tbrMGef-gHlHRvHbApJm-H65d2u-hXkhUiMSF8lbHfcWCnXPRBtC5phVmOjIoqU5BBLDevHu62Nbc0_cndPwHcAz-EmJmd4Ym1uEE1GboOmBPjGOJYlWFgfwm0s=w1755-h903-s-no?authuser=0)
+
+- Login Page
+![Login Page](https://lh3.googleusercontent.com/pw/AJFCJaUUcP9gVbyM_0jF1DIRD_8U3Mf63XWT_7OgT9eqEQHX-SozllgbwHFwSyftN-opvonA1tHXlegMpEFsFQIa4XxIOHKVKlH9_10X2cTmQwvwh2SalaNztU446rHoLPpmpNButhSO2Ec5y-Fyrh6ItynnrH5w7bbAZRnplVIM3qQxjwVP5Zz_qBLYjIdn9dSl04tnWUR9ksOu_Grn5vJ2DYWcncjXynOZqeycWJpuoo3ZlPzAlXwI6mry6hxyUcGeG7aejEBu88JxYio_junwel2jXpxS-z0L9-TrCVdMXRMoRxAOdb74k-sQpX7RrG4TqlX0biNFsdOH5tP1G9shs86CgRirvxULz3glntRW-q32R0t-PdO6LDa6uQSf87sMc2rLygtF5ZPd-JE9-6zMATQ4FrkCS-neNeDWPa-SsgqEEb9JLub4VYj83Dn6HW-NeoxHJMOnEUp4vMnWatAsAU2Md0Z3_Wosshu7IuI_lcRRAizSYRkMR4q7ZU30ou0GOZYb5o6J-J6yBmXy2obhosaO26m9I7sWgqOYy3_ja5Q9W6_g85VwyMdxzugwLQ__6-YBZQPVZdCh5JrbRx0hKm4kq7ovyvxs0BCua9yfiQD3Noww95aK5tjyVxT_04zJvsqe-bNoXZlEppi79eX2r5N94Wvpg_3lVgA9GncTl1N9fiDlT4TJz9g9I-zTt7HDuEbessVibce-ndISvaXUljzEiR1W_Wt9Xq1nZu_oXei9uAQTQEVfVf38fWYu5A911RePZJ2ovPz3Yih87B7emF3LK3gGRyhCbDpfXw5CDJbrpfis0ehy1gnucbJGP1ndfy1OfGvE9zl5U23wGqjjUI34yFYx7MQY71alSKwQl4UI3ELO8k_b_YScWTdQh4DOKLAvTuhejfamFY46TLlStzt1fKiq4spqI7mThiswtvtHptAKdzJi3-z71FE=w1771-h903-s-no?authuser=0)
+
+- Sign Up Page
+![Sign Up Page](https://lh3.googleusercontent.com/pw/AJFCJaVM163KI-_0ygqoZLACyrqWa1RZnpRuIel2yPKgQqKIA0eBQNeI4foYRzC1PWPQ-3k1K2DywMHV0eW6TLq8QCF9p9heklE4I13yWTO0S9VPZkWKRIpW1mYFEf2ayJahg1PF6jvwti4eDgwMyZnU6pMfDJjLrauEU8BYJHLy5EefyioLKJNwttuI6LzN0aI5RZaTdMEZfdF4cHB771hO09lL0Mz0ctRigC0rXgPpGiTfYDuC5TmlF-KDDi7QpvcIvsk5bOzeSfB2_2NygcLgdOEjJ3KUOU7hVoQVF80r7cCQlrX-R4skhDL3SVI_P8TJ5-7IiR3RllO4FRO7XH9-EbC23ABhyzsrk-CtSuISmNYF_W3BcliIYCGR9fhjQWuOgQlqG3qT3FA302ezwP_y3O-V5Fxyg1jRoYau7EWkxp7vmmboayBbDT1NhGGdAdvH9Wy9gus_KY7EH5DW5jiDp-91YPp4bMS2hDxQnvIWhkaPblQyVg9psXZBz6w3Z3k7qaBU-EMGgN2tS1oE3ES93sZZiQhl7qOuW5lckZ8iawn3ImPrrTDMXoklMamxWgZPDWBXdwU4h2e6NvFdABn5wLeC5WqrvQUDYaVZ73C9_L6-91fIhV4CIWf2Ip7x8-LPo7w5lAklgpLjcOKowpeGFQy9BRFbtg8Q3Qn5AnhFiipo8dGtXl_tXJuKJk_olzqorFPG7FGon5Nl55Dq5N9KVBCrHJvi29c3RnJq-ecHXvNa0WEZ0fgtCxmdXOKpfjvE-aR741t233jxOCwxBVS4fS4K6pYcnp401WazwpP9o1p08eCCAYyna44O4chwSocwvPDOnBq2El1TfRYSwB8sQQHYzHFkyvQ5fnRpxqKiNbljY3r8DQxLXz-PU_UUk4wwKsudbylHnJkm_0G08olqnTAnFmyXZPTeIU0MzSL2PSm6a4dpfUlPUnwcpbo=w1765-h903-s-no?authuser=0)
+
+- Home Page after login
+![Home Page after login](https://lh3.googleusercontent.com/pw/AJFCJaWO7YUmKlURMhEq1haC-dAlTgmvB3D7lOzBgmWAoYGhE_yi6cieGGYYJlw8GLbdFyindZa4uPxt6mi6cEZj2nDi7WtbzkOR9RqZhPUHacH0XaFZ2ASX2YTtAEzRt3_mxhMmF7TRW2NZKC-JffRpP30DNK398uS8v2MBsqenOy3pwTJ_xSAnDCoos597ddsGPdTYaKa3zRsmE3TYYHjyZoQ-6M4TSggb9SumebGT9LuvcVt_LZHIzmXqxuuJFv3XdjxPTS98J0Vv3EDLEhlP3kBBM1JRO2Yr_-5dwKK0Me9fG0fQTpj6zaiAeR3JiJcIsCk1AKtCcfCk-TijPlN6L4cfzYJDaTBq2pcLEy5aJaKv6UTP3LfIIrGZ-1LZ_ZO3zS43Pcix_R-NLMXpXRxND4GRJrqOuqrRqc-97tJGZR421uZoSQ71Dn0hn6wEvqYJBNAxPhqElOKmf3lfRqwM-kLuY1N2Qsp_wH5xTrr2iz4ImyU6pzDvJiQwTlkxxdy8NVqkUY13yWEcxzEHkUbgLZonYNFjfMW3oTzkO42gZ78lphz2HobeJNeSGWUECXq9iq1D6Ovjahi5adIe2tCIzJtAHKoWmZW0cok5a7pPL1Bn5zjJ36w4zZX3REsAhTFGzMet7DleyoJtDV-xKiQoo0Xidd7pXH-VbqHbbxyPseIIymJyUlmehDRVGbBCoCI0nZCqKhtb8m1zxpISqkIM0TyJQTBwgw4z06medSja-WeoutbHbhKUXMqTjzo-nvj-ZPMp7Js74xwqZCewTAYQt_4glELk9ZCi58MKD5DHk00OLfv8GUqBjzLz0AVB4D7wp0dMQ27O_QawowlsAAHSIVOCBcdqN2CdEVuBqoandXJzWjcpJnwLZu9oCPA3ubTNdqpA5lOCFU-lEfH8rpyNCr1r3ykd-8q1T5I34LNLbQG0-1cZPPUKpcKVpyU=w1750-h903-s-no?authuser=0)
+
+- Smoothie Page (Only accessible if user is authenticated)
+![Smoothie Page](https://lh3.googleusercontent.com/pw/AJFCJaVvubbuu7WMP66J0DiqkQPcZ35rSXWOUoNAzdCwaJ4zhm4d-LIejd3SI0ZEzaSlmCUEPxCWkQf0p_Xem5rmBg04w19_a7Wkd9z-SbIjT-PQ2I2CRosYBUkudq_lv2SBbOxepWTGEW3_c27dyQPRNlgSWackxvCCvPVoKErYFWDFZ81TIe1aYn5Zvr1HpYP5g8fp26N-JE7-VWD6OLdbK0vHVZgZwksxbtvNJSd70DXgdMpADvziO2FoFkO0TWOdyZFAD6dSyUambod-kZ7lVkD4s4IQCr-0ldD1qJsShyT78Ly4zB-h3CEJkFyWrkCX1WbX-RV9M2fY19n9dxA4D7XWd6y8AjqtYyfNUMfmM9VouZOKzsU9R_0Hvf9T5mAQbch2HgL3vwOKyTPWpcBIDFLfMvbn7OOppidiuLvDowuDGxgHLbQuL8cGPAi3RuMmIEPCw05-yLF7QSdASl3WMR-2b6EfRDAZi-BqWqKiM3KIXrI8rmTboJl0DeqYuOtofk2TUQIPUFCz3Hh8KX5O0bv3FVNkFsYgo-hTgGoDU34f6dKcTs_Q1nDUCew5gfvbEj5wg16vpbOPjXNVZSJc7L5mdjW5xSwmVF4NBNRV5hwbgLj-FGBqmu7qM4zuoCUbPyJOAqvCYUpxdZIXmvs-3BDzD4Y7Ag6_VU4YzTSx_Zo3TkQqQo08uYA-LZRQfDqE73GbT3zTlH3z4ySuxpZulgQvXPohkRUzMiJM3vklEitXlyWyD4AuwSEVJGvqmU9BkcD_r8eCNprX5Hqvn4hnu173dmzwVp2gdj2O2yi4SfY3aZR7K9SxK7fiSkpihaHIbeOakTHMyFhLZ3ZKhnWAVyAnQButIQs1mkOjJU0idfpWidsKvYepXuG4QchJJ-qSfeRJLnAUf6pYC1VIdsuzW2F4FB5TFiq3uwSj2CpCn4pFIAAAa549wqX65l8=w1763-h903-s-no?authuser=0)
+## 🚀 About Me
+I'm a full stack developer...
+## Frontend Development
+I have extensive knowledge and hands-on experience in frontend development technologies, including:
+
+- HTML/CSS: Building responsive and visually appealing user interfaces using semantic HTML and modern CSS frameworks like Bootstrap, Material UI.
+- JavaScript: Implementing interactive features and enhancing user experience with JavaScript.
+- React: Developing dynamic and high-performance web applications using the React library, including state management with Redux or context API.
+- Responsive Design: Ensuring seamless user experiences across various devices and screen sizes.
+## Backend Development
+I am well-versed in backend technologies, enabling me to develop robust server-side solutions. My expertise includes:
+
+- Node.js: Utilizing the power of Node.js to build scalable and efficient backend systems.
+- Express.js: Creating RESTful APIs and developing server-side logic using the Express.js framework.
+- Databases: Designing and implementing database structures, writing efficient queries, and ensuring data integrity with NoSQL (e.g., MongoDB) databases.
+- API Development: Designing and implementing secure and well-documented APIs to facilitate seamless communication between frontend and backend systems.
+- Authentication and Authorization: Implementing user authentication and authorization mechanisms using technologies like JSON Web Tokens (JWT), OAuth, or session-based authentication.
