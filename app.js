@@ -26,8 +26,6 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-// view engine
-app.set("view engine", "ejs");
 
 // database connection
 const dbURI = mongoDB.URL;

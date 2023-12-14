@@ -7,12 +7,9 @@ module.exports = {
     clientSecret: "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",
   },
   mongoDB: {
-    URL: "mongodb+srv://danyalkhan8271:Danyal123@cluster0.fdulbci.mongodb.net/ninja-auth?retryWrites=true&w=majority",
+    URL: "mongodb+srv://shahbazalam8035:iNerZPBtNEoJ3hxl@cluster0.tt2umvc.mongodb.net/?retryWrites=true&w=majority",
   },
   jwt: {
     secretKey: "alhadiisthebest",
-  },
-  session: {
-    cookieKey: "landcruiserbestsuvintheworld",
   },
 };

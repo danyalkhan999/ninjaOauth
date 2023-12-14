@@ -11,6 +11,7 @@ const requireAuth = (req, res, next) => {
     jwt.verify(token, secretKey, (err, decodedToken) => {
       if (err) {
         console.log(err.message);
+        res.status(401).json({"message": err.message});
         res.redirect("/login");
       } else {
         console.log(decodedToken);
@@ -34,6 +35,7 @@ const checkUser = async (req, res, next) => {
     jwt.verify(token, secretKey, async (err, decodedToken) => {
       if (err) {
         console.log(err.message);
+        res.status(400).json({"message": err.message})
         res.locals.user = null;
         next();
       } else {
